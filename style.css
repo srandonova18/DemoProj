@@ -41,4 +41,19 @@ body {
     transition: .5;
 }
 
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 17px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 29px;
+    transition: .5s;
+}
+
 
